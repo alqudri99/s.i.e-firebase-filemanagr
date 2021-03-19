@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "88601179677",
+    "firebase_url": "https://sie-app-f8b31.firebaseio.com",
+    "project_id": "sie-app-f8b31",
+    "storage_bucket": "sie-app-f8b31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88601179677:android:08246524691e3666fd78f4",
+        "android_client_info": {
+          "package_name": "com.alqudri.sie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "88601179677-7f5l5feq1gvffnsh6vachrc89gk2uign.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9e66Cx1c54DzAtLkIMTgzMWtV6WhJ5aA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "88601179677-7f5l5feq1gvffnsh6vachrc89gk2uign.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

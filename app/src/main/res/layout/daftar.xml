@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/edt_nama_Daftar"
+        android:hint="Nama"
+        android:background="#E1DFDF"
+        android:layout_marginBottom="10dp"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+    <EditText
+        android:id="@+id/edt_jabatan_daftar"
+        android:hint="Jabatan"
+        android:layout_marginBottom="10dp"
+        android:textSize="30dp"
+        android:background="#E1DFDF"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+    <EditText
+        android:id="@+id/edt_email_daftar"
+        android:hint="Email"
+        android:layout_marginBottom="10dp"
+        android:background="#E1DFDF"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+    <EditText
+        android:id="@+id/edt_pasword_daftar"
+        android:hint="Password"
+        android:background="#E1DFDF"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_height="60dp"
+        android:layout_width="60dp"
+        android:src="@drawable/semen"
+        />
+
+    <include
+        android:id="@+id/masuk"
+        android:visibility="gone"
+        layout="@layout/masuk"
+        />
+    <include
+        android:id="@+id/daftar"
+        android:visibility="visible"
+        layout="@layout/daftar"
+        />
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="100dp"
+        android:text="Daftar"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_keterangan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Belum mempunyai Akun?"
+            />
+        <Button
+            android:id="@+id/btn_daftar"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:background="#00B8D4"
+            android:textSize="10dp"
+            android:text="Daftar"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
